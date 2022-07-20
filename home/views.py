@@ -13,7 +13,7 @@ df = pd.read_csv('D:/진행중업무/데이터 분석_기획/데이터 분석/da
 def home(req):
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     BASE_DIR = BASE_DIR.replace('\\', '/')
-    testdf = pd.read_csv('D:/진행중업무/데이터 분석_기획/데이터 분석/data/2022-05-23 22년 형성평가 풀이.csv')
+
     testdf = pd.read_csv(str(BASE_DIR)+'/static/datafiles/2022-05-23 22년 형성평가 풀이.csv')
     print(str(BASE_DIR)+'/static/datafiles/2022-05-23 22년 형성평가 풀이.csv')
     #print(BASE_DIR)
